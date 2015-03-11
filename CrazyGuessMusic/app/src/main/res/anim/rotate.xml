@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"    >
+    <!--旋转效果-->
+    <!--android:duration 动画执行时间，单位是毫秒-->
+    <!--android:fromDegress 动画开始的角度-->
+    <!--android:toDegress 动画结束的角度，+表示正，-表示逆-->
+    <!--android:privateX 旋转时X轴坐标-->
+    <!--android:privateX 旋转时Y轴坐标-->
+    <!--android:repeatCount 旋转次数-->
+    <rotate
+        android:duration="2400"
+        android:fromDegrees="0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:repeatCount="3"
+        android:toDegrees="355" >
+    </rotate>
+</set>
